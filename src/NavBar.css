@@ -1,0 +1,9 @@
+nav{
+    margin-top: 50px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: dotted 2px;
+    position: fixed;
+    
+}

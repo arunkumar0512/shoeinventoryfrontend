@@ -1,0 +1,64 @@
+
+
+.about-page-container {
+    background-color: #f9f4e8;
+    padding: 20px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 200px;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: #553344;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #ad6a86;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    color: #666;
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+  
+  .inventory-section,
+  .contact-section,
+  .other-details-section {
+    margin-bottom: 40px;
+  }
+  
+  /* Add a subtle box shadow to sections */
+  .inventory-section,
+  .contact-section,
+  .other-details-section {
+    box-shadow: 0 0 10px rgba(85, 51, 68, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+  
+  /* Add hover effect to sections */
+  .inventory-section:hover,
+  .contact-section:hover,
+  .other-details-section:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Add a border and margin to paragraphs for better readability */
+  p {
+    border-bottom: 1px solid #ad6a86;
+    margin: 10px 0;
+    padding-bottom: 10px;
+  }
+  

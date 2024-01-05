@@ -1,0 +1,114 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  margin-bottom: 1000px;
+  
+}
+
+/* form {
+  
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 200px;
+  width: 400px;
+  height: 500px;
+  margin-left: 300px;
+  border: 2px  black;
+  border-style: inset;
+  
+} */   
+
+/* Register.css */
+
+/* ... existing styles ... */
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 50px;
+
+  width: 400px;
+  height: 500px;
+  margin-left: 400px;
+  border: 2px solid black; /* Fix the border style declaration */
+  border-style: inset;
+  position: relative;
+}
+
+form::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+  border: 2px solid transparent; /* Set the initial border color to transparent */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(52, 152, 219, 0.8);
+  pointer-events: none;
+  animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+  to {
+    border-color: #3498db; /* Change the glow color as per your preference */
+  }
+}
+
+
+
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.register-btn {
+  background-color: #2ecc71;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.register-btn:hover {
+  background-color: #27ae60;
+}
+
+
