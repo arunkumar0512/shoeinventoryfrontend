@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
-import './AddItem.css';
+import './Additem.css';
 
 const AddItem = () => {
     const { register } = useForm();
